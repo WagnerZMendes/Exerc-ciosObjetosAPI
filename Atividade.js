@@ -33,7 +33,7 @@ let livros= [
     },
 ]
 
-for(i = 0, i < livros.length; i++) {
+for(i = 0; i < livros.length; i++) {
     console.log(livros.titulo);
     console.log(livros.autor);
     if(livros.livroLido = True){
@@ -42,9 +42,3 @@ for(i = 0, i < livros.length; i++) {
         return "Você não leu este livro";
     }
 }
-
-    
-
-        
-
-
